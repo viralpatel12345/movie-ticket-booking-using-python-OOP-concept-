@@ -1,10 +1,9 @@
 '''
-Assignment 22 - Level 3
 
 "FairyLand Multiplex" wants to automate ticket booking and seat allocation process.
-Write a python program to implement the class diagram given below.
 
 Method description:
+
 check_seat_availability(movie_index,number_of_tickets): Checks seat availability for the given movie. Refer the code given in starter code
 
 calculate_ticket_price(movie_index,number_of_tickets): Calculates total ticket price for the given movie. Refer the code given in starter code
@@ -27,11 +26,9 @@ Calculate total ticket price
 
 Perform case sensitive string comparison.
 
-Estimated Time: 45 minutes
 
 '''
 
-#OOPR-Assgn-22
 class Multiplex:
     __list_movie_name=["movie1","movie2"]
     __list_total_tickets=[100,60]
